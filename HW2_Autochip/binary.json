@@ -1,0 +1,13 @@
+{
+    "general": {
+        "prompt": "Write a 5-bit Binary to BCD Converter. Input: [4:0] binary_input. Output: [7:0] bcd_output. Algorithm: Double Dabble.",
+        "name": "binary_to_bcd_converter",
+        "testbench": "binary_to_bcd/binary_to_bcd_tb.v",
+        "outdir": "binary_to_bcd_task",
+        "log": "binary_to_bcd_trajectory.log",
+        "iterations": 3,
+        "model_family": "ChatGPT",
+        "model_id": "gpt-4o-mini",
+        "num_candidates": 1
+    }
+}
