@@ -1,0 +1,102 @@
+[
+  {
+    "in": 0,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 1,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 2,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 4,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 8,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 3,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 5,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 9,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 6,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 10,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 12,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 7,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 11,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 13,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 14,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 15,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 9,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 6,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 5,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 10,
+    "expected_outputs": null,
+    "error": "encoder4_golden() got an unexpected keyword argument 'in'"
+  }
+]
