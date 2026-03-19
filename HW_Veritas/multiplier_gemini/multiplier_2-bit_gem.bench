@@ -1,0 +1,38 @@
+INPUT(A0)
+INPUT(A1)
+INPUT(B0)
+INPUT(B1)
+OUTPUT(P0)
+OUTPUT(P1)
+OUTPUT(P2)
+OUTPUT(P3)
+
+n_not_A0 = NOT(A0)
+n_not_A1 = NOT(A1)
+n_not_B0 = NOT(B0)
+n_not_B1 = NOT(B1)
+
+CONST0 = AND(A0, n_not_A0)
+CONST1 = OR(A0, n_not_A0)
+
+p_P0_0 = AND(A0, n_not_A1, B0, n_not_B1)
+p_P0_1 = AND(A0, n_not_A1, B0, B1)
+p_P0_2 = AND(A0, A1, B0, n_not_B1)
+p_P0_3 = AND(A0, A1, B0, B1)
+P0 = OR(p_P0_0, p_P0_1, p_P0_2, p_P0_3)
+
+p_P1_0 = AND(n_not_A0, A1, B0, n_not_B1)
+p_P1_1 = AND(n_not_A0, A1, B0, B1)
+p_P1_2 = AND(A0, n_not_A1, n_not_B0, B1)
+p_P1_3 = AND(A0, n_not_A1, B0, B1)
+p_P1_4 = AND(A0, A1, n_not_B0, B1)
+p_P1_5 = AND(A0, A1, B0, n_not_B1)
+P1 = OR(p_P1_0, p_P1_1, p_P1_2, p_P1_3, p_P1_4, p_P1_5)
+
+p_P2_0 = AND(n_not_A0, A1, n_not_B0, B1)
+p_P2_1 = AND(n_not_A0, A1, B0, B1)
+p_P2_2 = AND(A0, A1, n_not_B0, B1)
+P2 = OR(p_P2_0, p_P2_1, p_P2_2)
+
+p_P3_0 = AND(A0, A1, B0, B1)
+P3 = BUF(p_P3_0)
