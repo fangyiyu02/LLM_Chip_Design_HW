@@ -1,0 +1,12 @@
+
+read_verilog balanced_candidate_10.v
+hierarchy -check -top RCA8
+
+flatten
+
+proc; opt; fsm; opt; memory; opt
+techmap; opt
+dfflibmap -liberty nangate45.lib
+abc -liberty nangate45.lib -constr constraints.sdc
+clean
+stat -liberty nangate45.lib

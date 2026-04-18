@@ -1,0 +1,100 @@
+{
+  "mode": "balanced",
+  "best_ppa": {
+    "area_um2": 36.176,
+    "cell_count": 23,
+    "logic_levels": null
+  },
+  "iterations": [
+    {
+      "iteration": 0,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa8_generated.v"
+    },
+    {
+      "iteration": 1,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_1.v"
+    },
+    {
+      "iteration": 2,
+      "ppa": {
+        "area_um2": 45.486,
+        "cell_count": 29,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_2.v"
+    },
+    {
+      "iteration": 3,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_3.v"
+    },
+    {
+      "iteration": 4,
+      "ppa": {
+        "area_um2": 48.678,
+        "cell_count": 34,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_4.v"
+    },
+    {
+      "iteration": 5,
+      "ppa": {
+        "area_um2": 53.732,
+        "cell_count": 27,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_5.v"
+    },
+    {
+      "iteration": 7,
+      "ppa": {
+        "area_um2": 54.796,
+        "cell_count": 28,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_7.v"
+    },
+    {
+      "iteration": 8,
+      "ppa": {
+        "area_um2": 54.796,
+        "cell_count": 28,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_8.v"
+    },
+    {
+      "iteration": 9,
+      "ppa": {
+        "area_um2": 54.796,
+        "cell_count": 28,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_9.v"
+    },
+    {
+      "iteration": 10,
+      "ppa": {
+        "area_um2": 53.2,
+        "cell_count": 30,
+        "logic_levels": null
+      },
+      "file": "ksa_balanced_candidate_10.v"
+    }
+  ]
+}

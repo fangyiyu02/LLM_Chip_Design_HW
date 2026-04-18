@@ -1,0 +1,109 @@
+{
+  "mode": "area",
+  "best_ppa": {
+    "area_um2": 18.088,
+    "cell_count": 12,
+    "logic_levels": null
+  },
+  "iterations": [
+    {
+      "iteration": 0,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa8_generated.v"
+    },
+    {
+      "iteration": 1,
+      "ppa": {
+        "area_um2": 25.004,
+        "cell_count": 20,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_1.v"
+    },
+    {
+      "iteration": 2,
+      "ppa": {
+        "area_um2": 22.078,
+        "cell_count": 16,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_2.v"
+    },
+    {
+      "iteration": 3,
+      "ppa": {
+        "area_um2": 18.088,
+        "cell_count": 12,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_3.v"
+    },
+    {
+      "iteration": 4,
+      "ppa": {
+        "area_um2": 26.334,
+        "cell_count": 19,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_4.v"
+    },
+    {
+      "iteration": 5,
+      "ppa": {
+        "area_um2": 27.93,
+        "cell_count": 19,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_5.v"
+    },
+    {
+      "iteration": 6,
+      "ppa": {
+        "area_um2": 23.408,
+        "cell_count": 16,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_6.v"
+    },
+    {
+      "iteration": 7,
+      "ppa": {
+        "area_um2": 28.196,
+        "cell_count": 20,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_7.v"
+    },
+    {
+      "iteration": 8,
+      "ppa": {
+        "area_um2": 28.196,
+        "cell_count": 20,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_8.v"
+    },
+    {
+      "iteration": 9,
+      "ppa": {
+        "area_um2": 27.132,
+        "cell_count": 19,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_9.v"
+    },
+    {
+      "iteration": 10,
+      "ppa": {
+        "area_um2": 28.196,
+        "cell_count": 20,
+        "logic_levels": null
+      },
+      "file": "ksa_area_candidate_10.v"
+    }
+  ]
+}

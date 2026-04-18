@@ -1,0 +1,10 @@
+read_verilog -sv ksa8_generated.v
+rename KSA8 gold
+
+read_verilog -sv -ignore_redef best_ksa_balanced.v
+rename KSA8 gate
+
+equiv_make gold gate equiv
+prep -top equiv
+equiv_simple
+equiv_status

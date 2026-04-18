@@ -1,0 +1,109 @@
+{
+  "mode": "delay",
+  "best_ppa": {
+    "area_um2": 35.644,
+    "cell_count": 26,
+    "logic_levels": null
+  },
+  "iterations": [
+    {
+      "iteration": 0,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa8_generated.v"
+    },
+    {
+      "iteration": 1,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_1.v"
+    },
+    {
+      "iteration": 2,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_2.v"
+    },
+    {
+      "iteration": 3,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_3.v"
+    },
+    {
+      "iteration": 4,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_4.v"
+    },
+    {
+      "iteration": 5,
+      "ppa": {
+        "area_um2": 36.176,
+        "cell_count": 23,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_5.v"
+    },
+    {
+      "iteration": 6,
+      "ppa": {
+        "area_um2": 38.836,
+        "cell_count": 25,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_6.v"
+    },
+    {
+      "iteration": 7,
+      "ppa": {
+        "area_um2": 35.644,
+        "cell_count": 26,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_7.v"
+    },
+    {
+      "iteration": 8,
+      "ppa": {
+        "area_um2": 43.624,
+        "cell_count": 32,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_8.v"
+    },
+    {
+      "iteration": 9,
+      "ppa": {
+        "area_um2": 41.762,
+        "cell_count": 28,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_9.v"
+    },
+    {
+      "iteration": 10,
+      "ppa": {
+        "area_um2": 40.166,
+        "cell_count": 29,
+        "logic_levels": null
+      },
+      "file": "ksa_delay_candidate_10.v"
+    }
+  ]
+}
